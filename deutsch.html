@@ -22,8 +22,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link rel="icon" type="image/png" href="favicon.ico"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.16/iframeResizer.min.js" type="text/javascript"></script>
 
@@ -114,93 +112,6 @@ summary {
 </style>
 
 
-<style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script>
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.parent().addClass('active');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-});
-</script>
 
 <!-- tabsets -->
 
@@ -274,33 +185,6 @@ $(document).ready(function () {
 
 
 
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Navigation</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">
-    <span class="fas fa-home"></span>
-     
-    Home
-  </a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
 <div class="fluid-row" id="header">
 
 
@@ -310,28 +194,171 @@ $(document).ready(function () {
 </div>
 
 
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></p>
 <style type="text/css">
 .main-container {
-  max-width: 1600px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 }
 </style>
 <p><br></p>
+<button class="fixed-button" onclick="window.scrollTo({top: 0, behavior: &quot;smooth&quot;});">
+⇧
+</button>
+<button class="fixed-button-home" onclick="window.location.href = &#39;index.html&#39;;">
+<i class="fa fa-home"></i>
+</button>
 <p align="center">
-<img src="images/home/sarahsimon_bw.jpg" style="width:40.0%" />
+<img src="images/home/sarahsimon_france_cut.jpg#bordered" style="width:35.0%" />
 </p>
 <p><br></p>
 <p>Es ist tatsächlich wahr, wir wollen am 21. August 2021 in <a href="https://www.google.com/maps/place/38068+Rovereto,+Trentino/@45.883204,10.9955213,13z/data=!3m1!4b1!4m5!3m4!1s0x47820ec143127041:0x6a9664123aebfadf!8m2!3d45.89096!4d11.0401399">Rovereto</a> heiraten – und wir freuen uns riesig darüber, dass ihr mit dabei seid.</p>
 <p><br></p>
 <p>Auf dieser Seite haben wir die wichtigsten Informationen für euch zusammengestellt, die eure Zeit in Rovereto so angenehm wie möglich machen sollen. Ihr findet hier:</p>
+<p><br></p>
 <ul>
-<li><a href="">Infos zum Ablauf unserer Feier</a></li>
-<li><a href="">Eine Zusammenstellung von Unterkünften</a></li>
-<li><a href="">Eine Karte zur Orientierung</a></li>
-<li><a href="">Tipps für Unternehmungen, für alle die länger bleiben</a></li>
+<li>Infos zum <a href="#Ablauf">Ablauf unserer Feier</a></li>
+<li>Eine <a href="#Map">Karte zur Orientierung</a></li>
+<li>Eine Zusammenstellung von <a href="#Hosting">Unterkünften</a></li>
+<li>Eine Liste mit guten <a href="#Bars">Bars &amp; Restaurants</a></li>
+<li><a href="#Expeditions">Tipps für Unternehmungen</a> für alle die länger bleiben</li>
 </ul>
 <p><br></p>
+<p><br></p>
+<p><br />
+</p>
+<hr />
+<div id="ablauf-unserer-feier" class="section level1">
+<h1>Ablauf unserer Feier<a name="Ablauf"></a></h1>
+<div class="column-left">
+<p><br></p>
+<ul>
+<li>11:00: Standesamtliche Trauung in der <a href="https://www.comune.rovereto.tn.it/">Commune di Rovereto</a>
+<ul>
+<li>Piazza del Podestà, 11, 38068 Rovereto TN (siehe Karte unten)</li>
+</ul></li>
+</ul>
+<p><br></p>
+<ul>
+<li>Weil nicht alle Gäste mit hinein dürfen, werden wir die Zeremonie auch live streamen: <a href="">Live Stream</a>.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>11:30: Treffen vor dem Eingang der Commune.</li>
+</ul>
+<p><br></p>
+<ul>
+<li>12:00: Aufbruch (mit Bus, Autos oder zu Fuß) zur Location:
+<ul>
+<li><a href="https://www.balter.it/location/">Azienda Agricola Balter</a>, Via Vallunga II, 24, 38068 Rovereto TN (siehe Karte unten)</li>
+</ul></li>
+</ul>
+<p><br></p>
+<ul>
+<li>ca. 13:30: Essen</li>
+</ul>
+<p><br></p>
+<ul>
+<li>Danach: Party (open end)</li>
+</ul>
+</div>
+<p><br></p>
+<p><img src="images/home/commune.jpg#bordered" style="width:35.0%" /></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><img src="images/home/balter.jpg#bordered" style="width:35.0%" /></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br />
+</p>
+<hr />
+</div>
+<div id="karte-zur-orientierung" class="section level1">
+<h1>Karte zur Orientierung<a name="Map"></a></h1>
+<p><br></p>
+<p>In der Karte unten haben wir die wichtigsten Orte für euch zusammengefasst. Ihr findet dort:</p>
+<ul>
+<li>Alle Event-Locations im Überblick</li>
+<li>Markierungen von Unterkünften</li>
+<li>Parkmöglichkeiten</li>
+<li>Unsere favorite Bars und Restaurants</li>
+<li>Einkaufsmöglichkeiten</li>
+<li>Orte zum Bargeld abheben</li>
+</ul>
+<p><br></p>
+<iframe src="https://www.google.com/maps/d/embed?mid=1AI5_9UzoXH3Q9zHoUvPc7OVbYgaKERgm&amp;hl=de" width="1200" height="800">
+</iframe>
+<p><br></p>
+<p><br />
+</p>
+<hr />
+</div>
+<div id="unterkünfte" class="section level1">
+<h1>Unterkünfte<a name="Hosting"></a></h1>
+<p>In Rovereto gibt es zwei sehr schöne Hotels in zentraler Lage (siehe <a href="#Map">Karte</a>). Außerdem gibt es einige nette B&amp;Bs, die ihr nicht bei Airbnb findet.</p>
+<ul>
+<li><p>Hotels:</p>
+<ul>
+<li><p>Hotel Leon D’Oro, Via Gaetano, Via G. Tacchi, 2</p>
+<ul>
+<li>Lage: zentral (<a href="https://goo.gl/maps/q1KiJB8nP2iCUsyA7">Map</a>)</li>
+<li><a href="http://www.hotelleondoro.it/">Website</a></li>
+<li>Phone: +39 0464 437333</li>
+</ul>
+<p><br></p></li>
+<li><p>Hotel Rovereto, Corso Antonio Rosmini, 82</p>
+<ul>
+<li>Lage: zentral (<a href="https://g.page/hotelrovereto?share">Map</a>)</li>
+<li><a href="http://www.hotelrovereto.it/">Website</a></li>
+<li>Phone: +39 0464 435222</li>
+</ul>
+<p><br></p></li>
+</ul></li>
+<li><p>B&amp;Bs:</p>
+<ul>
+<li>Bed &amp; Breakfast “Alle Vigne”, Via Vallunga Prima 14
+<ul>
+<li>Lage: Auf einem Hügel auf halben Weg zwischen Altstadt und Party-Location (<a href="https://goo.gl/maps/jB2qRpQp3FiorRHDA">Map</a>)</li>
+<li><a href="https://www.allevignerovereto.it/">Website</a></li>
+<li>Phone: +39 333 251.95.65</li>
+<li>E-Mail: <a href="mailto:name@email.com">info@bballevignerovereto.it</a></li>
+</ul></li>
+</ul>
+<p><br></p>
+<ul>
+<li>Bed &amp; Breakfast “Ca’rina”, Via Bellavista I
+<ul>
+<li>Lage: Auf einem Hügel über der Stadt (<a href="https://goo.gl/maps/kD53rbBnB4om4EKM6">Map</a>)</li>
+<li><a href="https://website--380213191256179121492-bedandbreakfast.business.site/?utm_source=gmb&amp;utm_medium=referral">Website</a></li>
+<li>Phone: +39 347 2487090</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><br />
+</p>
+<hr />
+</div>
+<div id="bars-restaurants" class="section level1">
+<h1>Bars &amp; Restaurants <a name="Bars"></a></h1>
+<p><br></p>
+<p><br />
+</p>
+<hr />
+</div>
+<div id="tipps-für-unternehmungen" class="section level1">
+<h1>Tipps für Unternehmungen<a name="Expeditions"></a></h1>
+</div>
 
 <p><font size="-1.5">Copyright &copy; 2021 Simon Stephan. All rights reserved.</font></p>
 
