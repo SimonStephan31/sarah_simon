@@ -46,12 +46,21 @@ html {
   display: none;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h3,h4,h5,h6{
   font-family: 'Poppins';
   color: white;
   font-size: 4vw;
   text-align: center;
 }
+
+
+h2{
+  font-family: 'Poppins';
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+}
+
 
 /* Add blue border around workflowr past figure version buttons */
 .btn-workflowr-fig {
@@ -105,12 +114,12 @@ a:hover {
 /* -- Define the font type of the website's body -- */
 body {
     font-family: 'Poppins';
-	font-size: 2.2vw;
+	font-size: 1.5vw;
 	color: white;
 	font-weight: bold;
 	background-color: #636363;
-	background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url('images/home/background7.jpg');
-  	background-repeat: no-repeat;
+	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('images/home/background7.jpg');
+  	background-repeat: repeat;
   	background-attachment: fixed;
   	background-position: center;
 	background-size: 100%;
@@ -272,19 +281,23 @@ img[src*="#bordered"] {
 
 /* add a button */
 button {
-	height: 80px;
-	width: 80px;
+ max-width: 80px;
+ max-height: 80px;
+ min-width: 40px;
+ min-height: 40px;
     /*padding: 20px 20px;*/
-    border-radius: 50%;
-    border: 3px solid white;
+    border-radius: 20%;
+    border: none;
+    /*border: 3px solid white;*/
     cursor: pointer;
     transition: .2s;
     background: Transparent;
 	outline:none;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.3em;
   	font-weight: bold;
 	transition-duration: 0.4s;
+	overflow:hidden;
 }
 
 button:hover {
@@ -295,27 +308,15 @@ button:hover {
 
 .up_arrow{
     transform:rotate(-180deg);
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
 	text-align: center;
 }
-
-.sticky-button {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  position: sticky;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  bottom: 10px;
-  left: 5000px;
-}
-
 
 .fixed-button {
     position: fixed;
     bottom: 20px;
-    right: 20px; 
+    right: 30px; 
 }
 
 .fixed-button-home {
@@ -325,17 +326,59 @@ button:hover {
 }
 
 
-iframe {
-    margin: 0 auto;
-    background-color: #777;
-    display:block;
-}
-
 
 /* -- allows us to add borders to images -- */
 img[src*="#bordered"] {
    border:5px solid white;
 }
+
+
+
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 80%;
+   left: 0;
+   top: 0;
+   width: 80%;
+   display:block;
+   position: absolute;
+}
+
+
+/* -- TOC -- */
+#toc_container {
+   /*  background: #f9f9f9 none repeat scroll 0 0;*/
+    /* border: 1px solid #aaa;*/
+    display: table;
+    font-size: 70%;
+	left: 20px;
+	top: 120px;
+    width: auto;
+	position: fixed;
+}
+
+.toc_title {
+    font-weight: 700;
+    font-size: 120%;
+    text-align: center;
+	color: #1c9099;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+
+
+
+
 
 
 
