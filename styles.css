@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:500,400i,700&display=swap');
 /*@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');*/
 
-@media screen and (max-width:640px) {
-h2 span {font-size: 10px !important;}
+@media screen and (max-width:320px) {
+body {font-size: 24px !important;}
+}
+
+@media screen and (max-width:720px) {
+body{
+    margin-left:30%;
+    margin-right:30%;
+}
 }
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -358,7 +365,7 @@ img[src*="#bordered"] {
     /* border: 1px solid #aaa;*/
     display: table;
     font-size: 70%;
-	left: 20px;
+	left: -20px;
 	top: 120px;
     width: auto;
 	position: fixed;
