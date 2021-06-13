@@ -2,8 +2,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');*/
 
 @media screen and (max-width: 1400px) {
-body {font-size: 16px !important;}
-body{
+body {font-size: 16px !important;
     margin-left:28%;
     margin-right:5%;
 }
@@ -122,7 +121,7 @@ body {
 	font-size: 2vw;
 	color: white;
 	font-weight: bold;
-	background-color: #636363;
+	background-color: #2b8cbe;
 	background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url('images/home/lago_b6.jpg');
   	background-repeat: no-repeat;
   	background-attachment: fixed;
