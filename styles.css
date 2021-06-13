@@ -120,6 +120,7 @@ body {
 	font-weight: bold;
 	background-color: #636363;
 	background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url('images/home/background7.jpg');
+	background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url('images/home/lago_b6.jpg');
   	background-repeat: repeat;
   	background-attachment: fixed;
   	background-position: center;
@@ -190,11 +191,12 @@ img[src*="#bordered"] {
 
 
 .column-center{
-  float: center;
-  width: 50%;
+  margin: auto;
+  position: relative;
+  width: 90%;
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
+  box-shadow: 10px 10px 5px darkgrey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -340,6 +342,7 @@ img[src*="#bordered"] {
   /* 16:9 aspect ratio */
   padding-top: 56.25%;
   position: relative;
+  margin: auto;
 }
 
 .iframe-container iframe {
@@ -350,6 +353,7 @@ img[src*="#bordered"] {
    width: 80%;
    display:block;
    position: absolute;
+   margin: auto;
 }
 
 
@@ -360,7 +364,7 @@ img[src*="#bordered"] {
     display: table;
     font-size: 70%;
 	left: -20px;
-	top: 120px;
+	top: 160px;
     width: auto;
 	position: fixed;
 }
@@ -369,7 +373,7 @@ img[src*="#bordered"] {
     font-weight: 700;
     font-size: 120%;
     text-align: center;
-	color: #1c9099;
+	color: #7bccc4;
 }
 
 #toc_container li, #toc_container ul, #toc_container ul li{
