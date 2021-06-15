@@ -2,8 +2,23 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');*/
 
 @media screen and (max-width: 1400px) {
-body {font-size: 3.2vw !important;
+body {font-size: 2vw !important;
 }
+
+h1,h3,h4,h5,h6{
+  font-family: 'Poppins';
+  color: white;
+  font-size: 4vw;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Poppins';
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+}
+
 }
 
 
